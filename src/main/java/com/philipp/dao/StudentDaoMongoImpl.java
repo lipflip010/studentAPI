@@ -17,9 +17,9 @@ public class StudentDaoMongoImpl implements StudentDao{
     static {
         students = new HashMap<Integer, Student>() {
             {
-                put(1, new Student(1, "Hans", "CompSci"));
-                put(2, new Student(2, "Peter", "Angular"));
-                put(3, new Student(3, "Klaus", "Master CompSci"));
+                put(1, new Student(1, "Hans", "Mathematik"));
+                put(2, new Student(2, "Peter", "Physik"));
+                put(3, new Student(3, "Klaus", "Germanistik"));
             }
         };
     }
